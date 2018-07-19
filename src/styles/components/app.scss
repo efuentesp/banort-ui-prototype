@@ -1,0 +1,211 @@
+.page-header {
+  padding-bottom: 9px;
+  margin: 10px 0 20px;
+  border-bottom: 1px solid #eee;
+}
+
+
+//-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+//-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_  DEFINICION DE ESTILOS CEBRA TABLAS  -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+//-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+/*********************************/
+/******** CEBRA DE TABLAS ********/
+/*********************************/
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+  background-color: #F1F1F1;
+}
+
+.table-striped > tbody > tr:nth-child(2n) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+  background-color: #FFFFFF;
+}
+
+
+//-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+//-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ DEFINICION DE ESTILOS PARA BOTONES -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+//-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+/******** BTN-DANGER ********/
+.btn-danger {
+  background: #EB0029;
+  border-color: #D4451D;
+  color: #FFFFFF;
+}
+
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active {
+  background-color: #951D45;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.btn-danger.active.focus, .btn-danger.active:focus, .btn-danger.active:hover, .btn-danger:active.focus, .btn-danger:active:focus, .btn-danger:active:hover, .open>.dropdown-toggle.btn-danger.focus, .open>.dropdown-toggle.btn-danger:focus, .open>.dropdown-toggle.btn-danger:hover {
+  background: #ED1A3B;
+  border-color: #D4451D;
+  color: #FFFFFF;
+}
+
+
+/******** BTN-SUCCESS ********/
+.btn-success {
+  background: #FF671B;
+  border-color: #D4451D;
+  color: #FFFFFF;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active {
+  background-color: #FFA400;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.btn-success.active.focus, .btn-success.active:focus, .btn-success.active:hover, .btn-success:active.focus, .btn-success:active:focus, .btn-success:active:hover, .open>.dropdown-toggle.btn-success.focus, .open>.dropdown-toggle.btn-success:focus, .open>.dropdown-toggle.btn-success:hover {
+  background: #FF671B;
+  border-color: #D4451D;
+  color: #FFFFFF;
+}
+
+
+/******** BTN-PRIMARY ********/
+.btn-primary {
+  background: #FF671B;
+  border-color: #D4451D;
+  color: #FFFFFF;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+  background-color: #FFA400;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+  background: #FF671B;
+  border-color: #D4451D;
+  color: #FFFFFF;
+}
+
+//-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+//-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ DEFINICION DE ESTILOS PARA EL HEADER -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+//-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+/******** BACKGROUND HEADER ********/
+.backgroundTopBar {
+    background: #EB0029;
+    border: 1px solid #EB0029;
+    height: 55px;
+}
+
+/******** LOGO BANAMEX ********/
+i.fa-banorte  {
+    content:"Banorte";
+    background-image:url('C:\\SOFTTEK1\\Banorte\\estilosBanorte\\riot-ui-prototype\\src\\image\\logoBanorte.jpg');
+    width: 40px; //WIDTH of the icon
+    height: 40px; //HEIGHT of the icon
+    display: inline-block;
+    background-position:middle;
+    background-size:cover;
+    border: 1px solid #EB0029;
+}
+
+/******** COLOR fa-bars del HEADER********/
+i.fa-bars  {
+    color: #FFFFFF;
+}
+
+//-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+//-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ DEFINICION DE ESTILOS PARA EL MENU -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+//-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+/******** BACKGROUND MENU ********/
+.backgroundMenu {
+    background: #4E4044;
+}
+.backgroundMenuTop {
+    background: #EB0029;
+    height: 55px;
+}
+.backgroundMenuSolid {
+    background: #4E4044;
+    border: 3px solid #4E4044;
+}
+
+/******** DEFINE COLOR - SCROLL SUBMENU ********/
+.nav.side-menu > side-menu > li.current-page, .nav.side-menu > side-menu > li.active {
+    border-right: 5px solid #EB0029;
+}
+
+.nav-sm .nav.child_menu li.active, .nav-sm .nav.side-menu li.active-sm {
+    border-right: 5px solid #EB0029;
+}
+
+.nav-sm ul.nav.child_menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    width: 210px;
+    z-index: 4000;
+    background: #EB0029;//linear-gradient(#EB0029, #FFFFFF), #FFFFFF;
+    display: none;
+}
+
+/******** DEFINE COLOR - OPCION SUBMENU ********/
+.nav.side-menu > side-menu > li.active > a {
+    text-shadow: rgba(255, 255, 255, 1.0) 0 -1px 0;
+    // background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #00bdf2), color-stop(100%, red)), lime;
+    // background: -webkit-linear-gradient(#334556, #2C4257), #2A3F54;
+    // background: -moz-linear-gradient(#334556, #2C4257), #2A3F54;
+    // background: -o-linear-gradient(#334556, #2C4257), #2A3F54;
+    background: #EB0029;//linear-gradient(#EB0029, #FFFFFF), #FFFFFF;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 1px 0, inset rgba(255, 255, 255, 0.16) 0 1px 0;
+    -moz-box-shadow: rgba(0, 0, 0, 0.25) 0 1px 0, inset rgba(255, 255, 255, 0.16) 0 1px 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 1px 0, inset rgba(255, 255, 255, 0.16) 0 1px 0;
+}
+
+/******** DEFINE COLOR - BEFORE ********/
+.nav-md ul.nav.child_menu li:before {
+    background: rgba(255, 255, 255, 1.0);
+    margin-top: 7px;
+}
+
+.nav.side-menu > side-menu > li > a, .nav.child_menu > menu-item > li > a {
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+//-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+//-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ DEFINICION DE ESTILOS PARA EL MENU -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+//-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+/******** ESTILOS - DATAPICKER ********/
+.datepicker table tr td.active, .datepicker table tr td.active:hover, .datepicker table tr td.active.disabled, .datepicker table tr td.active.disabled:hover {
+    background-color: #FFFFFF;
+    //background-image: -moz-linear-gradient(to bottom, lime, yellow);
+    //background-image: -ms-linear-gradient(to bottom, lime, yellow);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#EB0029), to(#FBD44C));
+    //background-image: -webkit-linear-gradient(to bottom, lime, yellow);
+    //background-image: -o-linear-gradient(to bottom, lime, yellow);
+    background-image: linear-gradient(to bottom, #EB0029, #EB0029);
+    //background-repeat: repeat-x;
+    //filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFA400', endColorstr='#FBD44C', GradientType=0);
+    //border-color: red lime orange;
+    //border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    //filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    color: #FFFFFF;
+    //text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.datepicker table tr td.day:hover, .datepicker table tr td.day.focused {
+    background: #F8D44C;
+    cursor: pointer;
+}
+
+.datepicker table tr td.active:hover, .datepicker table tr td.active:hover:hover, .datepicker table tr td.active.disabled:hover, .datepicker table tr td.active.disabled:hover:hover, .datepicker table tr td.active:active, .datepicker table tr td.active:hover:active,
+.datepicker table tr td.active.disabled:active, .datepicker table tr td.active.disabled:hover:active, .datepicker table tr td.active.active, .datepicker table tr td.active:hover.active, .datepicker table tr td.active.disabled.active, .datepicker table tr td.active.disabled:hover.active,
+.datepicker table tr td.active.disabled, .datepicker table tr td.active:hover.disabled, .datepicker table tr td.active.disabled.disabled, .datepicker table tr td.active.disabled:hover.disabled, .datepicker table tr td.active[disabled], .datepicker table tr td.active:hover[disabled],
+.datepicker table tr td.active.disabled[disabled], .datepicker table tr td.active.disabled:hover[disabled] {
+    background-color: #733B73;
+}
+
+//-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+.clearfix {
+  height: 45px !important;
+}
